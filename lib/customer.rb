@@ -23,7 +23,7 @@ end
 
 
 def meals
-  @meal
+  Meals
 
 
 
