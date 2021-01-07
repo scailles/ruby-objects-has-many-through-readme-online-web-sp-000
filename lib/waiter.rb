@@ -9,6 +9,12 @@ class Waiter
 def initialize(name, years_of_experience)
   @name
   @years_of_experience
+  @@all << self
+end
+
+
+def self.all
+  @@all
 end
   
 
