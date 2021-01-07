@@ -29,7 +29,7 @@ def meals
 end
 
 
-def customers
+def custhighomers
   Customer.all.select do |customer|
     customer.waiter == self
   end
