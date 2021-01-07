@@ -10,6 +10,7 @@ def initialize(name, age)
   @age
   @@all << self
   @meals=[]
+  @waiters=[]
 end
 
 
@@ -20,7 +21,9 @@ end
 
 def new_meal(waiter, total, tip)
   meal = Meal.new(waiter, total, tip)
+  meal.customer = self
   @meals << meal
+  @waiters << waiter
 end
 
 
