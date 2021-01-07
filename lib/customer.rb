@@ -17,6 +17,9 @@ def self.all
 end
 
 
+def new_meal
+
+
 
 
   
