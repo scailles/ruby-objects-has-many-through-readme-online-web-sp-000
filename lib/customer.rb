@@ -23,7 +23,8 @@ end
 
 
 def meals
-  Meals.all.select 
+  Meals.all.select do |meal|
+    meal.customer
 
 
 
