@@ -29,14 +29,10 @@ def meals
 end
 
 
-def best_tipper
- tip_array = []
- tip_array << Meal.all.select do |meal|
-   meal.waiter == self
- end
- n_array = tip_array.sort(tip)
- best_tipper= tip_array[0]
- best_tipper
+def customers
+  Customer.all.select do |customer|
+    customer.waiter == self
+  end
 end
   
 
