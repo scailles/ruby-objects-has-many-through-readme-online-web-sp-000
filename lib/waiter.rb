@@ -30,7 +30,7 @@ end
 
 
 def best_tipper
-  
+  self.tip.sort
   
 
 end
