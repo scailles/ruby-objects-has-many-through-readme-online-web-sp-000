@@ -29,7 +29,7 @@ def meals
 end
 
 
-def custhighomers
+def highest_tipper
   Customer.all.select do |customer|
     customer.waiter == self
   end
