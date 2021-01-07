@@ -4,8 +4,8 @@ class Customer
   
 
 def initialize
-  @name= name
-  @age= age
+  @name
+  @age
 end
 
 
