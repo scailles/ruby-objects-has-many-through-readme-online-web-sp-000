@@ -29,11 +29,11 @@ def meals
 end
 
 
-def waiters
-  Waiter.all.select do |waiter|
-    waiter.customer == self
+ def waiters
+    meals.map do |meal|
+      meal.waiter
+    end
   end
-end
 
 
 
