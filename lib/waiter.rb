@@ -32,7 +32,7 @@ end
 def best_tipper
   tip_array = Meal.all.select do |meal|
     meal.waiter == self
-  tip_array.sort_by{
+  tip_array.sort_by{ |tip| meal.tip}
   end
 end
   
