@@ -10,8 +10,6 @@ def initialize(name, years_of_experience)
   @name
   @years_of_experience
   @@all << self
-  @meals=[]
-  @customers=[]
 end
 
 
@@ -23,6 +21,9 @@ end
 def new_meal(customer, total, tip=0)
   Meal.new(self, customer, total, tip)
 end
+
+def meals
+  Meal.
   
 
 end
