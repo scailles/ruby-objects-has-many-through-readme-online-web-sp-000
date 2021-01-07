@@ -20,7 +20,7 @@ end
 
 
 def new_meal(waiter, total, tip)
-  meal = Meal.new(waiter, total, tip)
+  meal = Meal.new(waiter, total, tip, customer)
   meal.customer = self
   @meals << meal
   @waiters << waiter
