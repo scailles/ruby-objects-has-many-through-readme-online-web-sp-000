@@ -23,7 +23,7 @@ end
 
 
 def meals
-  Meals
+  Meals.all.select 
 
 
 
