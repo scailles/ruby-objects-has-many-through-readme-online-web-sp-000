@@ -30,7 +30,10 @@ end
 
 
 def best_tipper
-  self.tip.sort
+ tip_array= self.tip.sort
+ best_tipper= tip_array[0]
+ best_tipper
+end
   
 
 end
