@@ -30,8 +30,8 @@ end
 
 
 def highest_tipper
-  Customer.all.select do |customer|
-    customer.waiter == self
+  tip_array = (Customer.all.select do |customer|
+    customer.waiter == self)
   end
 end
   
