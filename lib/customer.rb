@@ -19,6 +19,9 @@ end
 
 def new_meal(waiter, total, tip)
   Meal.new(waiter, total, tip, self)
+  @waiter
+  @total
+  @tip
 end
 
 
