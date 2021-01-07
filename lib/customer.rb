@@ -9,8 +9,8 @@ def initialize(name, age)
   @name
   @age
   @@all << self
-  @meals=[]
-  @waiters=[]
+  @meals=  []
+  @waiters= []
 end
 
 
