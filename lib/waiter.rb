@@ -30,8 +30,8 @@ end
 
 
 def best_tipper
-  tip_array = Customer.all.select do |customer|
-    customer.waiter == self
+  tip_array = Meal.all.select do |meal|
+    meal.waiter == self
   end
 end
   
