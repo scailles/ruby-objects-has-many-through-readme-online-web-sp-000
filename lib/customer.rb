@@ -19,7 +19,7 @@ def self.all
 end
 
 
-def new_meal(waiter, total, tip)
+def new_meal(waiter, total, tip, customer)
   meal = Meal.new(waiter, total, tip, customer)
   meal.customer = self
   @meals << meal
