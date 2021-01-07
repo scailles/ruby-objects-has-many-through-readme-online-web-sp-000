@@ -19,8 +19,6 @@ end
 
 def new_meal(waiter, total, tip)
   Meal.new(waiter, total, tip, self)
-  @meals << meal
-  @waiters << waiter
 end
 
 
