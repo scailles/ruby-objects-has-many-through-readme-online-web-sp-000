@@ -24,7 +24,9 @@ end
 
 def meals
   Meals.all.select do |meal|
-    meal.customer
+    meal.customer == self
+  end
+end
 
 
 
