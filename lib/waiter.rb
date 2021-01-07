@@ -10,6 +10,8 @@ def initialize(name, years_of_experience)
   @name
   @years_of_experience
   @@all << self
+  @meals=[]
+  @customers=[]
 end
 
 
