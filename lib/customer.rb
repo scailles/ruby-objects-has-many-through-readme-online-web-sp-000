@@ -23,7 +23,7 @@ end
 
 
 def meals
-  Meals.all.select do |m|
+  Meal.all.select do |m|
     meal.customer == self
   end
 end
